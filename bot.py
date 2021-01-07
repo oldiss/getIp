@@ -2,6 +2,8 @@ import telebot
 import config
 import urllib.request
 
+TOKEN = 'YOUR_TOKEN'
+
 bot = telebot.TeleBot(config.TOKEN)
 
 
